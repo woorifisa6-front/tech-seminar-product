@@ -7,8 +7,8 @@ import Button from '../components/Button';
 const MOCK_PRODUCTS = [
   {
     id: 'p1',
-    title: '우리 첫거래우대 정기예금',
-    desc: '우리은행 첫거래 고객을 우대하는 비대면 전용 예금',
+    title: '우리FISA 정기예금',
+    desc: '우리FISA 6기를 위한 특별한 정기예금, 그 찬란한 여정을 금융으로 잇다.',
     rows: [
       { label: '예상금리', value: '연 2.00% ~ 연 2.80%' },
       { label: '기간', value: '12개월' },

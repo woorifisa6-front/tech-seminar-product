@@ -190,3 +190,11 @@
   .depositPage__ctaFixed .btn--ghost {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
   }
+
+  .recommendPage {
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin: 0 auto; 
+    min-height: 100dvh;
+    background: var(--bg);
+  }

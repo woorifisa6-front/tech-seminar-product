@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function Button({
-    variant = 'solid', // solid | ghost | text
-    size = 'md',       // md | lg
+    variant = 'solid',
+    size = 'md',
     fullWidth = false,
     className = '',
     children,

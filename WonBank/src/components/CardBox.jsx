@@ -19,6 +19,7 @@ export default function CardBox({ title, desc, rows }) {
           description={desc}
           items={rows}
           tone="recommend"
+          eligible={false}
           onClick={() => {navigator('/product')}}
         />
       </section>
