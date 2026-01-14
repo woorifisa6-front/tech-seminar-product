@@ -1,8 +1,11 @@
+import RecommendPage from "./pages/RecommendPage"
+
 function App() {
 
   return (
-    <>WonBank
-    </>
+    <div className="appRoot">
+      <RecommendPage />
+    </div>
   )
 }
 
