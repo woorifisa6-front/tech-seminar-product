@@ -1,6 +1,7 @@
 import React from 'react'
 import InfoRow from './InfoRow';
 import { ProductCard } from "woori-product-component";
+import { useNavigate } from 'react-router-dom';
 
 /**
  * CardBox
@@ -10,6 +11,7 @@ import { ProductCard } from "woori-product-component";
  * @param {Array<{label: string, value: string, highlight?: boolean}>} props.rows - 카드에 표시할 항목들
  */
 export default function CardBox({ title, desc, rows }) {
+  const navigator = useNavigate();
     return (
       <section>
         <ProductCard
@@ -17,7 +19,7 @@ export default function CardBox({ title, desc, rows }) {
           description={desc}
           items={rows}
           tone="recommend"
-          onClick={() => {}}
+          onClick={() => {navigator('/product')}}
         />
       </section>
     );
