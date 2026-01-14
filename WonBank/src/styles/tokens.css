@@ -1,1 +1,21 @@
-/* ccs */
+:root {
+    /* iPhone 12 Pro: 390 x 844 */
+    --page-max-width: 390px;
+  
+    --bg: #ffffff;
+    --text: #222222;
+    --sub: #757c86;
+    --line: #e6e9ef;
+  
+    --card-bg: #ffffff;
+    --card-inner: #f2f3f5;
+  
+    --accent: #1d6cff;
+  
+    --r-card: 22px;
+    --r-inner: 18px;
+  
+    --shadow-card: 0 0 0 1px var(--line);
+  
+    --px: 20px;
+  }
