@@ -1,0 +1,50 @@
+/* Top Navigation (공통) */
+
+.topNav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+  
+    height: calc(56px + var(--safe-top) + var(--nav-extra-top));
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  
+  .topNav__left,
+  .topNav__right,
+  .topNav__rightPlaceholder {
+    width: 44px;
+    height: 44px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topNav__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 1;
+  
+    top: calc(50% + var(--safe-top) / 2);
+    transform: translate(-50%, -50%);
+  }
+  
+  .topNav__right {
+    width: auto;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent);
+  }
