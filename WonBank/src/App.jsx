@@ -6,11 +6,8 @@ function App() {
   return (
     <div className="appRoot">
       <RecommendPage />
+      <ProductInfoPage/>
     </div>
-    <>
-    {/* WonBank */}
-    <ProductInfoPage/>
-    </>
   )
 }
 
