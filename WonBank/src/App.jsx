@@ -5,8 +5,7 @@ function App() {
 
   return (
     <div className="appRoot">
-      <RecommendPage />
-      <ProductInfoPage/>
+      <RecommendPage/>
     </div>
   )
 }
