@@ -1,7 +1,11 @@
+import ProductInfoPage from "./pages/ProductInfoPage"
+
 function App() {
 
   return (
-    <>WonBank
+    <>
+    {/* WonBank */}
+    <ProductInfoPage/>
     </>
   )
 }
