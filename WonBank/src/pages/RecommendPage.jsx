@@ -26,6 +26,7 @@ const MOCK_PRODUCTS = [
       { label: '금액', value: '월 50만원' },
       { label: '예상이자', value: '최대 11만 5,836원', highlight: true },
     ],
+    eligible: true
   },
 ];
 
@@ -49,7 +50,7 @@ export default function RecommendPage() {
 
         <section className="depositPage__list">
           {MOCK_PRODUCTS.map((p) => (
-            <CardBox key={p.id} title={p.title} desc={p.desc} rows={p.rows} />
+            <CardBox key={p.id} title={p.title} desc={p.desc} rows={p.rows} eligible={p.eligible} />
           ))}
         </section>
       </main>

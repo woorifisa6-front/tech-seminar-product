@@ -1,4 +1,5 @@
 import TopNavigation from "../components/TopNavigation";
+import { useNavigate } from 'react-router-dom';
 
 const HEADER_HEIGHT = 56;
 const FOOTER_HEIGHT = 88;
@@ -140,12 +141,14 @@ const styles = {
 };
 
 const ProductInfoPage = () => {
+  const navigator = useNavigate();
+
   return (
     <>
       <TopNavigation />
       <div className="appRoot" style={styles.wrapper}>
         <header style={styles.header}>
-          <button style={styles.iconButton}>←</button>
+          <button onClick={() => navigator("/")} style={styles.iconButton}>←</button>
           <div style={styles.headerTitle}>안내</div>
           <button style={styles.iconButton}>♡</button>
         </header>

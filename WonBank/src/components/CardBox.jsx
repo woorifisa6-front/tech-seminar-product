@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
  * @param {string} props.desc - 상품 설명
  * @param {Array<{label: string, value: string, highlight?: boolean}>} props.rows - 카드에 표시할 항목들
  */
-export default function CardBox({ title, desc, rows }) {
+export default function CardBox({ title, desc, rows, eligible }) {
   const navigator = useNavigate();
     return (
       <section>
@@ -19,7 +19,7 @@ export default function CardBox({ title, desc, rows }) {
           description={desc}
           items={rows}
           tone="recommend"
-          eligible={false}
+          eligible={eligible}
           onClick={() => {navigator('/product')}}
         />
       </section>
