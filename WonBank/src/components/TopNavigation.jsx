@@ -11,7 +11,7 @@ export default function TopNavigation({
           onClick={onBack}
           aria-label="뒤로가기"
         >
-          &lt;
+          ←
         </button>
   
         <div className="topNav__title">{title}</div>

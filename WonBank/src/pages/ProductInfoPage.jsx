@@ -1,7 +1,7 @@
 import TopNavigation from "../components/TopNavigation";
 import { useNavigate } from 'react-router-dom';
 
-const HEADER_HEIGHT = 56;
+const HEADER_HEIGHT = 80;
 const FOOTER_HEIGHT = 88;
 
 const styles = {
@@ -28,14 +28,16 @@ const styles = {
     zIndex: 10,
   },
   headerTitle: {
-    fontSize: "16px",
+    fontSize: "17px",
     fontWeight: "600",
     color: "var(--text)",
   },
   iconButton: {
-    fontSize: "18px",
+    fontSize: "22px",
     cursor: "pointer",
     color: "var(--text)",
+    paddingLeft: "18px",
+    paddingRight: "18px"
   },
 
   /* Content */
@@ -64,7 +66,7 @@ const styles = {
   },
   imageArea: {
     height: "200px",
-    marginBottom: "32px",
+    marginBottom: "20px",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -98,6 +100,8 @@ const styles = {
   cardRow: {
     display: "flex",
     justifyContent: "space-between",
+    paddingLeft: "10px",
+    paddingRight: "10px"
   },
   cardLabel: {
     fontSize: "13px",
@@ -113,11 +117,11 @@ const styles = {
   /* Footer */
   footer: {
     position: "fixed",
-    bottom: "12px",
-    width: "390px",
+    bottom: "20px",
+    width: "380px",
     padding: `12px 12px var(--safe-bottom)`,
     display: "flex",
-    gap: "12px",
+    gap: "14px",
     backgroundColor: "var(--bg)",
   },
   leftButton: {
