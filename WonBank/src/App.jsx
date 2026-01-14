@@ -1,4 +1,5 @@
 import RecommendPage from "./pages/RecommendPage"
+import ProductInfoPage from "./pages/ProductInfoPage"
 
 function App() {
 
@@ -6,6 +7,10 @@ function App() {
     <div className="appRoot">
       <RecommendPage />
     </div>
+    <>
+    {/* WonBank */}
+    <ProductInfoPage/>
+    </>
   )
 }
 
